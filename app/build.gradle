@@ -1,0 +1,14 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.muse.tasbih'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.muse.tasbih"
+        minSdk 24
+        targetSdk 34
+        versionCode 20
+        versionName "4.8"
+    }
+}
